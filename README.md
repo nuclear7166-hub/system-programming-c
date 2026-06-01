@@ -123,27 +123,6 @@ Motor  : 100
 ...
 ```
 
----
-
-# ⚠️ GitHub 업로드 전 체크리스트
-
-| 항목 | 내용 |
-|---|---|
-| ❌ `.exe` 제외 | 빌드 결과물은 올리지 않기 |
-| ❌ `.o` 제외 | 오브젝트 파일 제외 |
-| ❌ `.layout` / `.dev` 제외 | Dev-C++ IDE 설정 파일 제외 |
-| ✅ `.gitignore` 추가 | 아래 내용 참고 |
-
-**.gitignore 예시**
-```
-*.exe
-*.o
-*.layout
-*.dev
-```
-
----
-
 # 🛠️ 사용 기술
 
 ![C](https://img.shields.io/badge/Language-C-blue?style=flat)
